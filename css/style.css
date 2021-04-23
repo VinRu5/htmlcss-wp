@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after {
@@ -19,19 +20,35 @@
     margin: 0 auto;
 }
 
-header {
+header img {
     height: 50px;
-    background-color: #f00;
+    border-right: 2px solid #bbb;
+    padding-right: 10px;
 }
 
-nav, footer {
-    height: 10px;
-    background-color: #ff0;
+ul {
+    list-style: none;
 }
 
-.image {
+li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+nav {
+    margin: 20px 0;
+    color: #bbb;
+}
+
+.main-image {
+    background: rgba(220, 220, 220, 1) url("../img/banner.jpg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
-    background-color: #ff8c00;
 }
 
 .text {
