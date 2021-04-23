@@ -44,11 +44,17 @@ nav {
     color: #bbb;
 }
 
+
 .main-image {
     background: rgba(220, 220, 220, 1) url("../img/banner.jpg") center;
     background-size: cover;
-    background-repeat: no-repeat;
     height: 300px;
+}
+
+.conteiner-title {
+    width: 50%;
+    margin-left: 30px;
+    color: #fff;
 }
 
 .text {
