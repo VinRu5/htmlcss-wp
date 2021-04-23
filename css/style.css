@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .clearfix::after {
@@ -28,6 +28,7 @@ header img {
 
 ul {
     list-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -47,28 +48,36 @@ nav {
 
 .main-image {
     background: url("../img/banner.jpg") center;
-    background-size: cover;
+    background-size: 100vh;
     height: 300px;
-    border-radius: 25px;
+    border-radius: 15px;
+    padding: 170px 0 0 30px;
 }
 
 .conteiner-title {
     width: 50%;
-    margin-left: 30px;
     color: #fff;
 }
 
+.conteiner-title > h1 {
+    font-size: 20px;
+}
+
+.conteiner-title > div {
+    font-size: 12px;
+}
 
 .main-web {
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
-.main-text h1{
+.main-text > h1{
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
-.mani-text div {
+.main-text > div {
     font-size: 12px;
     color: #bbb;
 }
@@ -80,7 +89,7 @@ nav {
 
 .image {
     height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .image-left {
